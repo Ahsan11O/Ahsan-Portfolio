@@ -269,7 +269,7 @@ function startVoice() {
 async function getAIResponse(text) {
 
     try {
-        let res = await fetch("http://localhost:3000/ai", {
+        let res = await fetch("https://ahsan-portfolio-production.up.railway.app/ai", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
