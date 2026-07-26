@@ -171,7 +171,7 @@ chat.innerHTML += `
 
     try {
 
-        const response = await fetch("https://your-backend.onrender.com/ai", {
+        const response = await fetch("https://ahsan-portfolio-production.up.railway.app/ai", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
