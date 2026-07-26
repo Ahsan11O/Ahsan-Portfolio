@@ -1,0 +1,37 @@
+{
+  "name": "Ahsan Ali",
+  "title": "BS Software Engineering Student",
+  "university": "Iqra University Karachi",
+  "location": "Karachi, Pakistan",
+  "origin": "Gambat, Sindh",
+
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "C++",
+    "Java",
+    "Prompt Engineering",
+    "Generative AI"
+  ],
+
+  "services": [
+    "Portfolio Website",
+    "Frontend Development",
+    "AI Chatbot Development",
+    "Responsive Website Design"
+  ],
+
+  "projects": [
+    "Ahsan Portfolio Website",
+    "AI Chatbot",
+    "GitHub Portfolio"
+  ],
+
+  "contact": {
+    "email": "ahsanali78611012@gmail.com",
+    "phone": "+9231102568572",
+    "github": "https://github.com/Ahsan11O",
+    "portfolio": "https://ahsan11o.github.io/Ahsan-Gallery/"
+  }
+}
