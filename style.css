@@ -1301,3 +1301,11 @@ body.light-mode * {
         right:70px;
     }
 }
+/* Mobile Hero Fix */
+@media (max-width:768px){
+
+    #home{
+        padding-top:120px;
+    }
+
+}
