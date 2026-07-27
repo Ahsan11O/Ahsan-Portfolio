@@ -66,12 +66,8 @@ window.addEventListener("DOMContentLoaded", ()=>{
 
 // Visitor Counter
 if(localStorage.visits){
-    localStorage.visits = Number(localStorage.visits)+1;
-}else{
-    localStorage.visits = 1;
+...
 }
-
-document.getElementById("visitorCount").innerHTML = localStorage.visits;
 
 // Auto Music Stop after 15 sec
 const music = document.getElementById("bgMusic");
