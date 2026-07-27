@@ -65,9 +65,6 @@ window.addEventListener("DOMContentLoaded", ()=>{
 });
 
 // Visitor Counter
-if(localStorage.visits){
-
-}
 
 // Auto Music Stop after 15 sec
 const music = document.getElementById("bgMusic");
