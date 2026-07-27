@@ -1309,3 +1309,11 @@ body.light-mode * {
     }
 
 }
+@media (max-width:768px){
+
+    footer{
+        padding-bottom:90px;
+        text-align:center;
+    }
+
+}
