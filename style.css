@@ -1317,3 +1317,25 @@ body.light-mode * {
     }
 
 }
+.linkedin-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 22px;      /* Pehle 16px ya 18px hoga */
+    font-weight: 700;
+
+    color: #0A66C2;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.linkedin-btn i{
+    font-size: 24px;      /* LinkedIn icon bhi bada */
+}
+
+.linkedin-btn:hover{
+    color: #38bdf8;
+    transform: scale(1.08);
+}
