@@ -1175,3 +1175,129 @@ body.light-mode * {
     border-radius:20px;
 
 }
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+  nav {
+    padding: 12px 20px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 45px;
+    line-height: 1.2;
+  }
+
+  .hero-content h2 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .hero-image {
+    margin-top: 30px;
+  }
+
+  .hero-image img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .skills-list,
+  .tags {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .btn-group a,
+  .btn-group button {
+    width: 220px;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+
+  .contact input,
+  .contact textarea {
+    width: 100%;
+  }
+
+}
+/* ===========================
+   HAMBURGER MENU
+=========================== */
+
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:#38bdf8;
+    cursor:pointer;
+    z-index:10001;
+}
+
+@media (max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    header{
+        padding:15px 20px;
+    }
+
+    nav{
+        display:none;
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        background:#111827;
+        flex-direction:column;
+        text-align:center;
+        padding:20px 0;
+        box-shadow:0 10px 20px rgba(0,0,0,.4);
+    }
+
+    nav.active{
+        display:flex;
+    }
+
+    nav a{
+        padding:15px;
+        margin:0;
+        width:100%;
+        display:block;
+    }
+
+    .mode-btn{
+        right:70px;
+    }
+}
