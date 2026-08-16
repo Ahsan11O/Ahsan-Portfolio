@@ -1339,3 +1339,11 @@ body.light-mode * {
     color: #38bdf8;
     transform: scale(1.08);
 }
+.game-preview {
+  width: 100%;
+  border-radius: 18px;
+  display: block;
+  margin-bottom: 15px;
+  object-fit: cover;
+  box-shadow: 0 10px 35px rgba(0,0,0,.35);
+}
